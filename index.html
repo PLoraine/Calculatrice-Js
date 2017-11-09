@@ -17,7 +17,7 @@
 	<table id="calculatrice">
 		<!--input resultat-->
 		<tr>
-			<td class="td_resultat" colspan="5"><input id="display" type="text" name="calc_resultat" readonly="readonly" ></td>
+			<td class="td_resultat" colspan="5"><input id="display" type="text" name="calc_resultat" ></td>
 		</tr>
 		<br>
 		<tr>
@@ -44,7 +44,7 @@
 		<tr>
 			<td></td>
 			<td><input id="zero" type="button" class="bouton" value="0" onclick="getValue('zero')" /></td>
-			<td><input id="egal" type="button" class="bouton" value="=" onclick="" /></td>
+			<td><input id="egal" type="button" class="bouton" value="=" onclick="resultat()" /></td>
 			<td><input id="multiplier" type="button" class="bouton" value="*" onclick="getValue('multiplier')" /></td>
 			<td></td>
 		</tr>
