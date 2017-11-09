@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CALCULATRICE JS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+</head>
+
+<body>
+<!--titre de la page-->
+	<header> 
+		<h1 class="titre"><span>The Calculatrice</span></h1>
+	</header>
+<!--fin titre de la page-->
+	<!-- début table -->
+	<table id="calculatrice">
+		<!--input resultat-->
+		<tr>
+			<td class="td_resultat" colspan="5"><input id="display" type="text" name="calc_resultat" readonly="readonly" ></td>
+		</tr>
+		<br>
+		<tr>
+			<td><input id="sept" type="button" class="bouton" value="7" onclick="getValue('sept')" /></td>
+			<td><input id="huit" type="button" class="bouton" value="8" onclick="getValue('huit')" /></td>
+			<td><input id="neuf" type="button" class="bouton" value="9" onclick="getValue('neuf')" /></td>
+			<td><input id="plus" type="button" class="bouton" value="+" onclick="getValue('plus')" /></td>
+			<td><input id="supp" type="button" class="bouton" value="C" onclick="" /></td>
+		</tr>
+		<tr>
+			<td><input id="quatre" type="button" class="bouton" value="4" onclick="getValue('quatre')" /></td>
+			<td><input id="cinq" type="button" class="bouton" value="5" onclick="getValue('cinq')" /></td>
+			<td><input id="six" type="button" class="bouton" value="6" onclick="getValue('six')" /></td>
+			<td><input id="moins" type="button" class="bouton" value="-" onclick="getValue('sept')" /></td>
+			<td><input id="parentheseun" type="button" class="bouton" value="(" onclick="getValue('parentheseun')" /></td>
+		</tr>
+		<tr>
+			<td><input id="un" type="button" class="bouton" value="1" onclick="getValue('un')" /></td>
+			<td><input id="deux" type="button" class="bouton" value="2" onclick="getValue('deux')" /></td>
+			<td><input id="trois" type="button" class="bouton" value="3" onclick="getValue('trois')" /></td>
+			<td><input id="diviser" type="button" class="bouton" value="/" onclick="getValue('diviser')" /></td>
+			<td><input id="parenthesdeux" type="button" class="bouton" value=")" onclick="getValue('parenthesdeux')" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input id="zero" type="button" class="bouton" value="0" onclick="getValue('zero')" /></td>
+			<td><input id="egal" type="button" class="bouton" value="=" onclick="" /></td>
+			<td><input id="multiplier" type="button" class="bouton" value="*" onclick="getValue('multiplier')" /></td>
+			<td></td>
+		</tr>
+	</table>
+<!--fin table -->
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

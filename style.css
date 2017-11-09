@@ -1,0 +1,42 @@
+/* background page */
+body {
+	background-color: #00BFFF;
+}
+/* fin background */
+
+/* titre page */
+h1 {
+	text-align: center;
+}
+span{
+	text-align: center;
+	font-family: "Indie Flower", cursive;
+	font-size: 40pt;
+	color: purple;
+}
+/* fin titre */
+
+/* début table */
+
+#calculatrice{
+	margin:auto;
+	border: 2px solid black;
+	width: 300px;
+	height: 150px;
+
+}
+
+.td_resultat{
+	text-align: center;
+	
+
+}
+
+#C{
+	background-color: red;
+}
+
+#sept, #huit, #neuf, #plus, #supp,#quatre, #cinq, #six, #moins, #parentheseun, #un, #deux, #trois, #diviser, #parenthesdeux, #zero, #egal, #multiplier{
+	width: 90px;
+	height: 90px;
+}
